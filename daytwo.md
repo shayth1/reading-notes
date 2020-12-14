@@ -1,6 +1,6 @@
 ![Day 2 lets use commands](https://fofxacademy.com/wp-content/uploads/2020/01/install-git-for-multiple-users.png)
 
-# Day tow
+# Day two
 > *Lets talk about awesome things (Git & Github).*
 
 *we used to perform cut, copy, and paste operations through the user interfaces provided by Windows and other operating systems, but have you tried to download a file without using the mouse?*
