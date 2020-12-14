@@ -8,7 +8,7 @@
 
 > Here the table of content about what i'm adding 
 
- *Day* | *Go*
+ Day | Go
 ------------ | -------------
 *1* | *already in*
 *2* | *[check day two](https://github.com/shayth1/reading-notes/blob/main/daytwo.md)*
