@@ -7,12 +7,14 @@
 ##### This note will be updated every day & I'll mention all highlights in my journey with ASAC
 
 > Here the table of content about what i'm adding 
+#
 
- Day | Go
+*Day* | *Visit*
 ------------ | -------------
-*1* | *already in*
+*1* | *You are here*
 *2* | *[check day two](https://github.com/shayth1/reading-notes/blob/main/daytwo.md)*
+*3* | *[check day two](https://github.com/shayth1/reading-notes/)*
+
+
   #
   
-  
-
