@@ -14,8 +14,8 @@
 *Day* | *Visit*
 ------------ | -------------
 *1* | *You are here*
-*2* | *[check day two](https://github.com/shayth1/reading-notes/blob/main/daytwo)*
-*2* | *[day two read:04](https://github.com/shayth1/reading-notes/daytwo-read4)*
+*2* | *[check day two](https://shayth1.github.io/reading-notes/daytwo)*
+*2* | *[day two read:04](https://shayth1.github.io/reading-notes/daytwo-read4)*
 
 
   #
