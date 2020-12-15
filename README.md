@@ -18,6 +18,7 @@
 *2* | *[read:04](https://shayth1.github.io/reading-notes/daytwo-read4)*
 *2* | *[Lab:04](https://shayth1.github.io/reading-notes/Lab04)*
 *3* | *[Read:05](https://shayth1.github.io/reading-notes/read05)*
+*3* | *[Lab:05](https://shayth1.github.io/reading-notes/Lab04)*
 
 
   #
