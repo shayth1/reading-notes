@@ -16,6 +16,7 @@
 *1* | *You are here*
 *2* | *[check day two](https://shayth1.github.io/reading-notes/daytwo)*
 *2* | *[read:04](https://shayth1.github.io/reading-notes/daytwo-read4)*
+*2* | *[Lab:04](https://shayth1.github.io/reading-notes/Lab04)*
 *3* | *[Read:05](https://shayth1.github.io/reading-notes/read05)*
 
 
