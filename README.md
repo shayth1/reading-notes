@@ -1,5 +1,7 @@
 # Reading-notes
 
+![Day 2 lets use commands](https://i0.wp.com/bdmpublications.com/wp-content/uploads/2019/05/history-of-coding-1.jpg?resize=780%2C405&ssl=1)
+
 > hi there I'm shayth and I'm so excited to share my updates with you
 
 ## Day One: oct.13.2020 ##
@@ -12,9 +14,10 @@
 *Day* | *Visit*
 ------------ | -------------
 *1* | *You are here*
-*2* | *[check day two](https://github.com/shayth1/reading-notes/blob/main/daytwo.md)*
-*3* | *[check day two](https://github.com/shayth1/reading-notes/)*
+*2* | *[check day two](https://github.com/shayth1/reading-notes/blob/main/daytwo)*
+*2* | *[day two read:04](https://github.com/shayth1/reading-notes/daytwo-read4)*
 
 
   #
   
+
