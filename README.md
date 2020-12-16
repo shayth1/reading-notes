@@ -21,6 +21,7 @@
 *3* | *[Lab:05](https://shayth1.github.io/reading-notes/Lab04)*
 *3* | *[Read:06a](https://shayth1.github.io/reading-notes/read06a)*
 *3* | *[Lab:06](https://shayth1.github.io/reading-notes/Lab04)*
+*3* | *[Read:06b](https://shayth1.github.io/reading-notes/read06b)*
 
 
   #
