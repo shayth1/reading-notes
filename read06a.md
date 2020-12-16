@@ -8,8 +8,9 @@ A JavaScript date is fundamentally specified as the number of milliseconds that 
 #### What is Java Script?
 ##### JavaScript is a text-based programming language used both on the client-side and server-side that allows you to make web pages interactive. Where HTML and CSS are languages that give structure and style to web pages, JavaScript gives web pages interactive elements that engage a user.
 #
-> below youll find Some of date - time functions for JS. 
-#
+ *below youll find Some of date - time functions for JS.* 
+
+
 *Command* | *usage*
 ------------ | -------------
 *`d.getFullYear();`* | *Get the year as a four digit number (yyyy)*
@@ -23,12 +24,3 @@ A JavaScript date is fundamentally specified as the number of milliseconds that 
 *`d.getDay();`* | *Get the weekday as a number (0-6)*
 *`d.Date.now();`* | *Get the time. ECMAScript 5.*
 #
-
-
-
-
- 
-
-
- 
-
