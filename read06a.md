@@ -23,4 +23,7 @@ A JavaScript date is fundamentally specified as the number of milliseconds that 
 *`d.getTime();`* | *Get the time (milliseconds since January 1, 1970)*
 *`d.getDay();`* | *Get the weekday as a number (0-6)*
 *`d.Date.now();`* | *Get the time. ECMAScript 5.*
-#
+
+  #
+  
+
