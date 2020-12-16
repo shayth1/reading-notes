@@ -54,14 +54,44 @@
                 <span class="badge badge-warning">React Native</span>
                 <span class="badge badge-info">C#</span>
                 <span class="badge badge-dark">Dart</span>
-                <p class="card-text"><small class="text-muted">Last updated 15/12/2020</small></p>
+
+
+                <p id="demo" class="card-text"> <small class="text-muted"></small></p>
                 <button href="https://github.com/shayth1/reading-notes" class="fa fa-github"> GitHub</button>
+                <button onclick="getLocation()">get your current location</button>
             </div>
         </div>
     </div>
 
 
 
+
+
+    <script>
+        var x = document.getElementById("demo");
+
+        function getLocation() {
+            if (navigator.geolocation) {
+                navigator.geolocation.getCurrentPosition(showPosition);
+            } else {
+                x.innerHTML = "Geolocation is not supported by this browser.";
+            }
+        }
+
+        function showPosition(position) {
+            x.innerHTML = "Latitude: " + position.coords.latitude +
+                "<br>Longitude: " + position.coords.longitude;
+        }
+    </script>
+
+
 </body>
+<script>
+    alert("welcome to my testing page"); 
+</script>
+
+
+
+
 
 </html>
