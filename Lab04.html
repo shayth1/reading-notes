@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html>
 <header>
-    <title>Lab: 04 - Structure web pages with HTML</title>
+    <title>Labs & Reads</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="lab.css">
 
@@ -14,80 +14,158 @@
 
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-        <a class="navbar-brand" href="#">ASAC Code </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Shayth </a>
+    <div class="container bootstrap snippets bootdey">
+        <div class="content-hero">
+            <img class="content-hero-embed" src="https://via.placeholder.com/250x250/" alt="cover">
+            <div class="content-hero-overlay bg-grd-red"></div>
+            <div class="content-hero-body">
+                <div class="pull-right" role="group">
+                    <a class="btn btn-icon btn-default"><span class="fa fa-user"></span></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="content-hero content-hero-sm">
+            <div class="row">
+                <div class="col-md-6 col-xs-8">
+                    <div class="media">
+                        <div class="media-left">
+                            <a class="kit-avatar kit-avatar-64 no-padding border-white hidden-xs" href="#">
+                                <img alt="cover"
+                                    src="https://pbs.twimg.com/profile_images/1195408503810273287/gF3iFdPZ.jpg">
+                            </a>
+
+                        </div>
+                        <div class="media-body">
+                            <h3 class="display-name media-heading text-red visible-xs">Shayth Bani Baker</h3>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-2 col-xs-4 col-md-push-4 text-right">
+                    <a href="#" rel="button" class="btn btn-default" data-toggle="tooltip" data-placement="left"
+                        title="" aria-label="Poke" data-original-title="Jawil sitik"><i
+                            class="fa fa-thumbs-o-up"></i></a>
+                    <a href="#" rel="button" class="btn btn-default" data-toggle="tooltip" data-placement="left"
+                        title="" aria-label="Send a Messege" data-original-title="Send a Messege"><i class="fa fa-github
+                            "></i></a>
+                </div>
+
+
+            </div>
+        </div>
+        <div class="content-body">
+            <ul class="timeline">
+                <li class="timeline-line"></li>
+                <li class="timeline-group">
+                    <a href="#" class="btn btn-default">Today</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Partner1</a>
+            </ul>
+            <ul class="timeline">
+                <li class="timeline-line" style="height:600px;"></li>
+                <li class="timeline-item timeline-poster">
+                    <div class="timeline-badge">
+                        <a class="border-teal" rel="tooltip" title="" data-container="body" href="#"
+                            data-original-title="What will you do?"></a>
+                    </div>
+                    <div class="timeline-panel panel fade in panel-default panel-fill" data-fill-color="true"
+                        data-init-panel="true">
+                        <div class="panel-body">
+
+                            <div class="tab-content pt-1x">
+                                <p id="feelbox" disabled name="timelinePost" rows="6"
+                                    class="form-control autogrow no-border no-resize"
+                                    style="overflow: hidden; min-height: 6em; height: 52px;"></p>
+                                <div class="autogrow-textarea-mirror"
+                                    style="display: none; word-wrap: break-word; white-space: normal; padding: 6px 12px; width: 461px; font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px;">
+                                    .<br>.</div>
+                            </div>
+                        </div>
+                        <div class="panel-footer">
+                            <div class="btn-group">
+                                <div class="pull-right">
+                                    <button onclick="feel()" class="btn btn-success">Tell me how do you feel</button>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Partner2</a>
+
+                <li class="timeline-item">
+                    <div class="timeline-badge">
+                        <a class="border-orange" rel="tooltip" title="" data-container="body" href="#"
+                            data-original-title="Post"></a>
+                    </div>
+                    <div class="timeline-panel panel fade in panel-default panel-fill" data-fill-color="true"
+                        data-init-panel="true">
+                        <div class="panel-body">
+                            <div class="media mb-2x">
+                                <div class="media-left">
+                                    <a href="#" class="timeline-avatar kit-avatar kit-avatar-36">
+                                        <img class="media-object"
+                                            src="https://ingilizcebankasi.com/wp-content/uploads/box-for-nega.jpg"
+                                            alt="">
+                                    </a>
+                                </div>
+                                <div class="media-body">
+                                    <p class="media-heading"><strong> (for) in JS</strong> <br><small
+                                            class="text-muted">16/12/2020</small></p>
+                                </div>
+                            </div>
+
+                            <p id="ABOUT"></p>
+
+                        </div>
+
+                        <div class="panel-body timeline-resume">
+                            <button onclick="forFunc()" class="btn btn-bordered btn-default btn-sm"><span
+                                    class="fa fa-share fa-fw"></span>
+                                Click to Run</button>
+                        </div>
+
+                    </div>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Partner3</a>
+                <li class="timeline-item">
+                    <div class="timeline-badge">
+                        <a class="border-red" rel="tooltip" title="" data-container="body" href="#"
+                            data-original-title="photo"></a>
+                    </div>
+                    <div class="timeline-panel panel fade in panel-default panel-fill" data-fill-color="true"
+                        data-init-panel="true">
+                        <div class="panel-body">
+                            <div class="media mb-1x">
+                                <div class="media-left">
+                                    <a href="#" class="timeline-avatar kit-avatar kit-avatar-36">
+                                        <img src="https://bootdey.com/img/Content/avatar/avatar4.png" alt="">
+                                    </a>
+                                </div>
+                                <div class="media-body">
+
+                                    <p class="media-heading"><strong>Lab: 08 - Operators and Loops</strong><br></p>
+                                </div>
+                            </div>
+
+                            <p>at every time you click on the eye button you'll add a new image.
+                            </p>
+                        </div>
+                        <div class="panel-body">
+                            <button onclick="lab8()" class="btn btn-bordered btn-default btn-sm"><span
+                                    class="fa fa-eye"></span></a>
+                        </div>
+
+
+                    </div>
                 </li>
             </ul>
         </div>
-    </nav>
-    <br>
-
-    <div class="container">
-        <div class="card mb-3">
-            <img class="card-img-top" src="https://miro.medium.com/max/1808/1*XPfvAChJ-y5Y8-0zg8gNaw.png">
-            <div class="card-body">
-                <p>
-                <h5 class="card-title"> <i class="fa fa-user" aria-hidden="true"> </i> Shayth Bani Baker</h5>
-                <p><i class="fa fa-venus-mars" aria-hidden="true"></i> Male </p>
-                <p><i class="fa fa-birthday-cake" aria-hidden="true"></i></i> 1995 "25" </p>
-                <span class="badge badge-primary"><i class="fa fa-html5" aria-hidden="true"></i></span>
-                <span class="badge badge-secondary"><i class="fa fa-css3" aria-hidden="true"></i></span>
-                <span class="badge badge-success">React</span>
-                <span class="badge badge-danger">MySql</span>
-                <span class="badge badge-warning">React Native</span>
-                <span class="badge badge-info">C#</span>
-                <span class="badge badge-dark">Dart</span>
-
-
-                <p id="demo" class="card-text"> <small class="text-muted"></small></p>
-                <button href="https://github.com/shayth1/reading-notes" class="fa fa-github"> GitHub</button>
-                <button onclick="getLocation()">get your current location</button>
-            </div>
-        </div>
     </div>
 
-
-
-
-
-    <script>
-        var x = document.getElementById("demo");
-
-        function getLocation() {
-            if (navigator.geolocation) {
-                navigator.geolocation.getCurrentPosition(showPosition);
-            } else {
-                x.innerHTML = "Geolocation is not supported by this browser.";
-            }
-        }
-
-        function showPosition(position) {
-            x.innerHTML = "Latitude: " + position.coords.latitude +
-                "<br>Longitude: " + position.coords.longitude;
-        }
-    </script>
-
-
 </body>
+<script type="text/javascript" src="script.js"></script>
 <script>
-    alert("welcome to my testing page"); 
+    // alert("welcome to my testing page"); 
 </script>
 
 
